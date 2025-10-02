@@ -1,0 +1,15 @@
+team a left
+team b right
+turn
+attack a up light
+attack b up heavy
+turn
+attack a up light
+move b left heal
+turn
+move b down
+move a downright
+turnenemy
+attack b down heavy
+turn
+boss a light clear

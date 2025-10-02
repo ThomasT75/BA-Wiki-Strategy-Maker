@@ -1,0 +1,20 @@
+team a top
+team b bottom
+turn
+move a right
+move b up
+turnenemy
+attack a up special
+turn
+move b upright
+swap a b
+move a right defbuff
+turnenemy
+attack a down special
+turn
+startteleport b left
+move b down teleport
+move a up
+turnenemy
+attack b right special
+boss a special clear

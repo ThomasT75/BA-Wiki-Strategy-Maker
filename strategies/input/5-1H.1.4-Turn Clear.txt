@@ -1,0 +1,13 @@
+team a left
+turn
+move a right drone
+turn
+attack a down light
+turn
+move a right gift
+turnenemy
+attack a up light
+turn
+move a upright
+turnenemy
+boss a light clear

@@ -1,0 +1,8 @@
+team a left
+turn
+attack a right heavy
+turn
+move a right noteleport
+turnenemy
+attack a down heavy
+boss a heavy clear

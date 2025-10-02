@@ -1,0 +1,9 @@
+team a left
+turn
+move a down noteleport
+turn
+move a down teleport
+turnenemy
+attack a down light
+turn
+boss a heavy timed 240

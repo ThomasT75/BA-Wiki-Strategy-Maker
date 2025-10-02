@@ -1,0 +1,15 @@
+team a bottom
+team b top
+turn
+attack b up light
+move a left
+turnenemy
+attack b left light
+turn
+move b left
+move a up drone
+turn
+move b left gift
+attack a left light
+turn
+boss a light clear

@@ -1,0 +1,22 @@
+team a left
+team b right
+turn
+move a down noteleport
+move b upleft noteleport
+turnenemy
+attack a down heavy
+turn
+move b left
+teleport a
+swap a b
+attack a up heavy
+turn
+move b up
+move a up
+turn
+attack a left heavy
+attack b down heavy
+turnenemy
+boss a heavy clear
+
+

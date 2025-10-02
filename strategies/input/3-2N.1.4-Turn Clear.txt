@@ -1,0 +1,14 @@
+team a bottomleft
+turn
+move a up
+turnenemy
+attack a down light
+turn
+move a right
+turn
+move a right atkbuff
+turnenemy
+attack a down heavy
+turn
+boss a light clear
+

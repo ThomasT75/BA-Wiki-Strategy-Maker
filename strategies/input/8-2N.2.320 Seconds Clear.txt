@@ -1,0 +1,13 @@
+team a right
+team b left
+turn
+attack a up heavy
+move b upleft teleport
+turn
+move a up
+attack b up heavy
+turn
+move b right
+move a right
+turn
+boss a heavy timed 320

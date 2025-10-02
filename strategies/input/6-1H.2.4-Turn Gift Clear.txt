@@ -1,0 +1,18 @@
+team a top
+team b left
+turn
+move a down drone
+move b down 
+turnenemy
+attack a down heavy
+attack b down heavy
+turn
+move b right
+move a right
+turnenemy
+attack b right heavy
+turn
+move a up gift
+ignore b
+turn
+boss a heavy clear

@@ -1,0 +1,20 @@
+team a top
+team b left
+turn
+attack a down special
+attack b down light
+turn
+move a down
+move b down
+turnenemy
+attack b down light
+turn
+move a down drone
+move b downright teleport
+turn
+move b right
+move a down
+turn
+move b right gift
+boss a special clear
+

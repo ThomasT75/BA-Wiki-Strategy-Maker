@@ -1,0 +1,8 @@
+team a topleft
+turn
+attack a down light
+turn
+move a down
+turn
+boss a light timed 320
+

@@ -1,0 +1,9 @@
+team a left
+turn
+move a up teleport
+turnenemy
+attack a left special
+turn
+attack a right special
+turn
+boss a special timed 240

@@ -1,0 +1,10 @@
+team a bottomleft
+turn
+move a right drone
+turn
+attack a up light
+turn
+move a up atkbuff
+turnenemy
+attack a right light
+boss a light clear

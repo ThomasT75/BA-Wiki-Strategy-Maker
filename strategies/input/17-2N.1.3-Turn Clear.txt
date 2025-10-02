@@ -1,0 +1,15 @@
+team a top
+team b bottom
+turn
+move a up atkbuff
+attack b up heavy
+turn
+move a up
+attack b left heavy
+turnenemy
+attack a up light
+turn
+move a up
+ignore b
+turnenemy
+attack a left light

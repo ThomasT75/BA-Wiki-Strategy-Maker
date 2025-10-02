@@ -1,0 +1,17 @@
+team a left
+team b right
+turn
+move b up teleport
+swap a b
+attack a up special
+turn
+attack a right special
+move b down noteleport
+turn
+move a right
+move b down
+turn
+move a right
+ignore b
+turnenemy
+boss a special timed 400

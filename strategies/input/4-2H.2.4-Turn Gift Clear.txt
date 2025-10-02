@@ -1,0 +1,14 @@
+team a left
+turn
+move a down teleport
+turnenemy
+attack a left light
+turn
+move a right
+turnenemy
+attack a down heavy
+turn
+move a right gift
+turn
+boss a heavy clear
+

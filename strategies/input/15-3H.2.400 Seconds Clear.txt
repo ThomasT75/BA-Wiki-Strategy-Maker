@@ -1,0 +1,15 @@
+team a bottom
+turn
+move a left teleport
+turn
+move a upright
+turn
+move a right drone
+turn
+attack a right special
+turn
+move a down
+turnenemy
+attack a right special
+turn
+boss a special timed 400

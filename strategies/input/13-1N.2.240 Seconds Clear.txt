@@ -1,0 +1,11 @@
+team a top
+turn
+move a down
+turnenemy
+attack a down heavy
+turn
+attack a right heavy
+turn
+move a right atkbuff
+turnenemy
+boss a heavy timed 240

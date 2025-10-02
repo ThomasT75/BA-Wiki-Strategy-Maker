@@ -1,0 +1,20 @@
+team a left
+team b right
+turn
+move a up teleport
+move b down
+turnenemy
+attack a left special
+attack b down heavy
+turn
+move a down
+move b right teleport
+turn
+move a upright
+move b right gift
+turn
+attack a right special
+move b left teleport
+turn
+attack b up heavy
+boss a special clear

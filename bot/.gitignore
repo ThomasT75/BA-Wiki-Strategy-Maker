@@ -1,0 +1,4 @@
+.env
+cookie.txt
+csrf.txt
+responses/*

@@ -1,0 +1,15 @@
+team a left
+team b right
+turn
+attack b up special
+wait a
+turn
+move b left
+swap a b
+attack a down light
+turn
+move b up
+move a left
+turn
+attack b right special
+boss a light clear

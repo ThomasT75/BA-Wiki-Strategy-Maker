@@ -1,0 +1,14 @@
+team a top
+turn
+move a left
+turn
+attack a downleft light
+turn
+move a down
+turnenemy
+attack a down light
+turn
+move a left
+turnenemy
+boss a light timed 240
+

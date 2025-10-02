@@ -1,0 +1,24 @@
+team a left
+team b right
+turn
+move b left defbuff
+attack a down heavy
+turnenemy
+attack b down special
+turn
+move a right
+move b down
+turn
+move b down
+swap a b
+attack a right heavy
+turn
+startteleport b left
+move a right
+attack b left special
+turn
+move a down heal
+move b up
+turnenemy
+attack b up special
+boss a heavy clear

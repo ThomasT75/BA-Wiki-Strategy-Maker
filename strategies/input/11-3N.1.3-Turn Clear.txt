@@ -1,0 +1,11 @@
+team a left
+team b right
+turn
+attack a right heavy
+move b downleft teleport
+turn
+move a right
+attack b left special
+turn
+attack b down special
+boss a heavy clear

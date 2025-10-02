@@ -1,0 +1,7 @@
+team a bottomleft
+turn
+move a up noteleport
+turn
+attack a right heavy
+turnenemy
+boss a heavy timed 160

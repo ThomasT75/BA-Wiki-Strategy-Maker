@@ -1,0 +1,16 @@
+team a top
+team b bottom
+turn
+attack a right light
+attack b up heavy
+turn
+attack b up heavy
+swap a b
+move a right
+startteleport b top
+turnenemy
+attack a down light
+turn
+move b left gift
+boss a light clear
+

@@ -1,0 +1,15 @@
+team a bottomright
+turn
+move a left
+turnenemy
+attack a upright heavy
+turn
+move a left
+turn
+move a left gift
+turnenemy
+attack a up heavy
+turn
+move a upleft
+turn
+boss a heavy timed 320

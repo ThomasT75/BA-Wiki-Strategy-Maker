@@ -1,0 +1,13 @@
+team a top
+team b down
+turn
+move a right
+move b right
+turnenemy
+attack b down light
+turn
+attack a right special
+move b up teleport
+turn
+attack b up light
+boss a special clear

@@ -1,0 +1,14 @@
+team a left
+team b top
+turn
+attack b down light
+swap a b
+move a right teleport
+turnenemy
+attack a right light
+attack a down light
+turn
+move a downleft heal
+ignore b
+turnenemy
+boss a light clear

@@ -1,0 +1,15 @@
+team a topleft
+team b bottomleft
+turn
+attack a down heavy
+move b right
+turn
+move b right
+move a right
+turnenemy
+attack b up heavy
+turn
+attack a right heavy
+ignore b
+turnenemy
+boss a heavy clear

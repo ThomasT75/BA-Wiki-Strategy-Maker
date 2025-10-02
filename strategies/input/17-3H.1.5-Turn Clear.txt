@@ -1,0 +1,32 @@
+team a left
+team b middle
+team c right
+turn
+move c up
+move a up
+move b up
+turnenemy
+attack a left light
+attack b up heavy
+turn
+move a upright drone
+move b up
+move c up
+turn
+attack b up heavy
+swap a b
+attack a up light
+move c up
+turnenemy
+attack c left light
+turn
+move b down
+move a up
+startteleport c right
+move c up
+startteleport b left
+turn
+move b down gift
+attack c left light
+boss a light clear
+

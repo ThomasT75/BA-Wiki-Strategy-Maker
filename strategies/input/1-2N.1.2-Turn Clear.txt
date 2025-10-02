@@ -1,0 +1,5 @@
+team a left
+turn
+attack a up light
+turn
+boss a light clear

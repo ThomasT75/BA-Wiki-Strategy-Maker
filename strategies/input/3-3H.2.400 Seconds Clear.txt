@@ -1,0 +1,16 @@
+team a topleft
+turn
+move a right drone
+turn
+move a down
+turn
+move a downright gift
+turnenemy
+attack a left heavy
+attack a down light
+turn
+move a right
+turn
+move a right
+turnenemy
+boss a heavy timed 400

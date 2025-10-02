@@ -1,0 +1,16 @@
+team a top
+team b bottomleft
+turn
+move a downright drone
+attack b down heavy
+turn
+attack a down heavy
+move b right
+turnenemy
+attack a down heavy
+turn
+move a upright
+ignore b
+turnenemy
+boss a heavy clear
+

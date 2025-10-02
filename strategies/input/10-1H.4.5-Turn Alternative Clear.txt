@@ -1,0 +1,16 @@
+team a right
+team b left
+turn
+attack a left light
+attack b down special
+turn
+move b downleft
+ignore b
+move a down
+turn
+attack a down light
+turn
+move a right
+turn
+boss a light clear
+

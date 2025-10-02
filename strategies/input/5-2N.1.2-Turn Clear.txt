@@ -1,0 +1,9 @@
+team a left
+turn
+move a right
+turnenemy
+attack a up light
+turn
+attack a right light
+turnenemy
+boss a light clear

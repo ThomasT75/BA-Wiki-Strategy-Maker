@@ -1,0 +1,15 @@
+team a bottomleft
+turn
+move a up drone
+turn
+move a up
+turnenemy
+attack a left light
+turn
+move a right
+turnenemy
+attack a up heavy
+turn 
+move a downright
+turnenemy
+boss a light clear

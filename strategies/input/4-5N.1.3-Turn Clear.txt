@@ -1,0 +1,10 @@
+team a bottom
+turn
+move a right noteleport
+turnenemy
+attack a right heavy
+turn
+teleport a 
+attack a left light
+turn
+boss a heavy clear
