@@ -33,6 +33,6 @@ for i in $(seq 0 $(( (29 * 8) / 48 )) ); do
     exit 1
   fi
   echo "$jsonfile" > "$filename"
-  
-  >&2 echo "run bot_submit.sh when ready" 
 done
+
+>&2 echo "run bot_submit.sh when ready" 

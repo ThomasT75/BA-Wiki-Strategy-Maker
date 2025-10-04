@@ -1,0 +1,20 @@
+team a left
+team b right
+turn
+move a right
+move b left
+turnenemy
+attack b up light
+turn
+move a down
+move b down
+turnenemy
+attack a right special
+turn
+move a down
+move b upleft
+turnenemy
+attack a down special
+turn
+attack b up light
+boss a light clear

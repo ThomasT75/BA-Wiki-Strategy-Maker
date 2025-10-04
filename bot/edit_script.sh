@@ -31,7 +31,7 @@ for item in $(seq 0 "$jq_pages_len"); do
   fi
 
   category="$(echo "$page_text" | grep -oE '\[\[[Cc]ategory:[Mm]issions\|[0-9]*\]\]')"
-  page_edit="$(echo "$page_text" | sed -z -E 's/(==Strategy==[^\[]*)?(\[\[[Cc]ategory:[Mm]issions\|[0-9]*\]\])//')"
+  page_edit="$(echo "$page_text" | sed -z -E 's/(== *Strategy *==[^\[]*)?(\[\[[Cc]ategory:[Mm]issions\|[0-9]*\]\])//')"
   strategy="$(../strategies/get_tabbed_strategy.sh "${mission_code}")" # | sed -e 's/$/\\n/' | tr -d '\n')"
 
   if [[ ! $? == 0 ]]; then

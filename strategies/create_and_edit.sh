@@ -53,7 +53,7 @@ while true; do
     [Aa]*) finaltitle+=$turns"-Turn Clear" ;;
     [Gg]*) finaltitle+=$turns"-Turn Gift Clear" ;;
     [Cc]*) finaltitle+=$turns"-Turn Challenge" ;;
-    [Tt]*) finaltitle+=$time" Seconds Clear" ;;
+    [Tt]*) finaltitle+=$time" Second Challenge" ;;
     [Ll]*) finaltitle+=$turns"-Turn Alternative Clear" ;;
     [Vv]*) finaltitle+=$turns"-Turn Challenge Only" ;;
     [Bb]*) finaltitle+=$turns"-Turn Gift Only" ;;
@@ -63,4 +63,5 @@ done
 
 mv -i "$file1" "./input/${file1//editing/$finaltitle}"
 
+echo "filename: $finaltitle"
 ./progress.sh

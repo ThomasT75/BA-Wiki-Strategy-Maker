@@ -1,7 +1,7 @@
 team a right
 team b left
 turn
-move a left drone
+move a left
 attack b down special
 turnenemy
 attack a up light

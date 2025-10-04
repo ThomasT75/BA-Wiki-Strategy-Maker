@@ -1,0 +1,23 @@
+team a bottom
+team b top
+turn
+move a up
+move b down
+turnenemy
+attack a down light
+turn
+attack b down heavy
+swap a b
+move a downleft
+turn
+startteleport b bottom
+move b right
+attack a down light
+turn
+move b right
+move a left
+turnenemy
+attack b right heavy
+turn
+attack b up heavy
+boss a light clear
