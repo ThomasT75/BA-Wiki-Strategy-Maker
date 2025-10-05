@@ -7,7 +7,7 @@ for file1 in *.txt; do
   turns=$(tr ' ' '\n' < "$file1" | grep -ci '\<turn\>')
 
   filename=$(echo "$file1" \
-  | sed -E "s/ Seconds Clear.txt/ Second Challenge.txt/" \
+  | sed -E "s/ Second Challenge.txt/-Second Challenge.txt/" \
   )
   # echo "$filename"
   mv -i "$file1" "$filename"

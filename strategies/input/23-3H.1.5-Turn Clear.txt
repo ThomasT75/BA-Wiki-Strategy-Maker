@@ -1,0 +1,37 @@
+team a left
+team b top
+team c right
+turn
+move a downright
+move b right teleport
+move c left
+turnenemy
+attack c up heavy
+turn
+swap a c
+move b right
+startteleport a right
+move c left
+move a down
+turnenemy
+attack b down light
+turn
+swap b c
+move b upleft
+move c left teleport
+wait a
+turnenemy
+attack c up heavy
+attack b up light
+turn
+move c upleft
+move a down
+move b right
+turnenemy
+attack c up heavy
+attack a right light
+turn
+move c upleft gift
+attack b up light
+boss a light clear
+
