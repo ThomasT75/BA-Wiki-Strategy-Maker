@@ -106,17 +106,6 @@ func Action(tl *TokenList, strat *Strategy, actionMap map[string]ActionInfo, app
 			if err != nil {
 				tl.ErrTxt("Field of Type %s is not a number: %s", v, err)
 			}
-			// stupid thing but fun :)
-			// var Asec = sec
-			// for Asec >= 10 {
-			// 	Asec /= 10
-			// }
-			// switch Asec {
-			// case 1, 8:
-			// 	s = "an "+s
-			// default:
-			// 	s = "a "+s
-			// }
 			strat.timeToClear = sec
 			tl.Next()
 		case FormatHintEncounterSeconds:
@@ -156,24 +145,28 @@ func Action(tl *TokenList, strat *Strategy, actionMap map[string]ActionInfo, app
 		}
 	}
 
+	// If extra action is detected add to the same strat.action
 	if appendToLast {
 		strat.actions[len(strat.actions)-1] += fmt.Sprintf(act.Format, orderedValues...)
 	} else {
 		strat.actions = append(strat.actions, fmt.Sprintf(act.Format, orderedValues...))
 	}
 
+	// Check if this action accepts Extras
 	if !tl.IsCurrent("\n") && !act.AcceptsExtras {
 		tl.ErrTxt("This Action: %s Doesn't Accept Extra Actions\n", action)
 	}
 
-	if tl.IsCurrent("\n") && !act.SkipPeriod {
+	if tl.IsCurrent("\n") {
 		strat.actions[len(strat.actions)-1] += "."
 	}
 
+	// Check If Team can do anything
 	if strat.isTeamDead[letter] {
 		tl.ErrTxt("This team can't take anymore actions (dead): %s\n", letter)
 	}
 
+	// Calculate Movement
 	if letter != "" && act.MoveCost > 0 && !DEBUG_DONT_CHECK_MOVE_COST {
 		switch act.MoveCost {
 		case 2:

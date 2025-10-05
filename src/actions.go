@@ -15,8 +15,6 @@ type ActionInfo struct {
 	IsEncounter bool
 	// Doesn't take this Encounter into Team Damage Recommentation
 	SkippableEncounter bool
-	// Doesn't add a period at the end
-	SkipPeriod bool
 	// Consumes team turn (0 = no, 1 = yes)
 	MoveCost int
 }
@@ -78,6 +76,12 @@ var ActionsPlayerMap = map[string]ActionInfo{
 		Format: "* Teleport with %s",
 		FormatHint: []FormatHint{FormatHintTeamLetter},
 	},
+	"teleportattack": {
+		Format: "** Defeat %s Enemy on the other side%s",
+		FormatHint: []FormatHint{FormatHintTeamLetter, FormatHintEnemyArmorType, FormatHintTeleportAttackReturn},
+		FormatOrder: []int{-1, 1, 2},
+		IsEncounter: true,
+	},
 	"startteleport": {
 		Usage: "startteleport (Letter) (StartPosition)",
 		Format: "* %s Teleports to %s Start Point",
@@ -109,12 +113,6 @@ var ActionsPlayerMap = map[string]ActionInfo{
 		FormatHint: []FormatHint{FormatHintTeamLetter},
 		MoveCost: 2,
 	},
-
-	// "or": {
-	// 	Usage: "Or",
-	// 	Format: "* Or",
-	// 	SkipPeriod: true,
-	// },
 }
 
 var ValidActionsEnemy []string
@@ -141,7 +139,6 @@ var ActionsEnemyMap = map[string]ActionInfo{
 		Usage: "boss (Letter) (Armor Types) (Clear Type)",
 		Format: "* %s will be attacked by %s Boss",
 		FormatHint: []FormatHint{FormatHintTeamLetter, FormatHintBossArmorType, FormatHintRequiresExtraActionForBoss},
-		// AcceptsExtras: true,
 		IsEncounter: true,
 	},
 }
@@ -160,7 +157,6 @@ var ExtraActionsMap = map[string]ActionInfo{
 		FormatHint: []FormatHint{FormatHintClearSeconds, FormatHintEncounterSeconds},
 	},
 	"gift": {
-	// 	Format: ", grabbing the gift box ({{ItemCard|Pyroxene|quantity=50}})",
 		Format: ".\n** Obtain Gift Box ({{ItemCard|Pyroxene|quantity=50}})",
 	},
 	"teleport": {

@@ -36,10 +36,6 @@ func team(tl *TokenList, strat *Strategy) {
 	var validEnconter = ValidEncounterActionsPlayer
 	var actionsToUse = ActionsPlayerMap
 	for !tltmp.IsCurrent("EOF") {
-		// or action hack
-		if tltmp.IsCurrent("or") {
-			break
-		} 
 		if tltmp.IsCurrentAny(validEnconter...) {
 			action, ok := actionsToUse[tltmp.GetCurrent()]
 			if !ok {

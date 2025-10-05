@@ -21,6 +21,7 @@ const (
 	FormatHintWithdrawDirection
 	FormatHintClearSeconds
 	FormatHintEncounterSeconds
+	FormatHintTeleportAttackReturn
 
 	// keep it at the bottom
 	MaxFormatHint
@@ -64,6 +65,8 @@ func (f FormatHint) String() string {
 		return "ClearSeconds"
 	case FormatHintEncounterSeconds:
 		return "EncounterSeconds"
+	case FormatHintTeleportAttackReturn:
+		return "TeleportAttackReturn"
 	}
 
 	return ""
@@ -125,6 +128,10 @@ var FormatHintMap = map[FormatHint]map[string]string {
 		"upright": "Up-Right",
 		"downleft": "Down-Left",
 		"downright": "Down-Right",
+	},
+	FormatHintTeleportAttackReturn: {
+		"back": ", and Teleport Back",
+		"stay": ", but don't Teleport Back",
 	},
 	FormatHintBossArmorType: {
 		"normal": "{{TypeIcon|Normalarmor|enemy=boss}}",
