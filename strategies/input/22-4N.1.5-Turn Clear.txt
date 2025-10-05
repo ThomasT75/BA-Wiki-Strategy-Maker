@@ -18,7 +18,7 @@ swap b a
 move b up
 turn
 move a up
-attack b right heavy
+attack b right special
 turn
 move b right
 move a left
